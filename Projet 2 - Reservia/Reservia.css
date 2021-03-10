@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "Raleway";
+    src: url("Fonts/static/Raleway-Medium.ttf");
+}
+
+body {
+    font-family: "Raleway";
+}
+
+.Hébergements {   
+    background-color: #F2F2F2;
+}
+
+aside {
+    background-color: white;
+}
+
+footer {
+    background-color: #F2F2F2;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
