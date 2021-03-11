@@ -2,13 +2,45 @@
     font-family: "Raleway";
     src: url("Fonts/static/Raleway-Medium.ttf");
 }
-
+html {
+    width: 1680px;   
+}
 body {
     font-family: "Raleway";
 }
 
+#Menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    position: relative;
+    top: -80px; left: 200px;
+}
+
+.menu1 {
+    margin: 20px 20px 20px;
+    color:  #0065FC;
+}
+.menu2 {
+    margin: 20px 20px 20px;
+}
+.menu3 {
+    margin: 20px 20px 20px;
+    color:  #0065FC;
+}
+
 .Hébergements {   
     background-color: #F2F2F2;
+    border-radius: 20px;
+    width: 700px;
+    height: 475px;
+}
+
+#HébergementsPhotos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
 }
 
 aside {
@@ -23,4 +55,45 @@ ul {
     list-style-type: none;
 }
 
+img {
+    width: 200px;
+    height: 100px; 
+}
+.Photo1 {
+    background-color: white;
+    border-radius: 20px;
+}
+
+.Photo2 {
+    background-color: white;
+    border-radius: 20px;
+}
+
+.Photo3 {
+    background-color: white;
+    border-radius: 20px;
+}
+
+.Photo4 {
+    background-color: white;
+    border-radius: 20px;
+}
+
+.Photo5 {
+    background-color: white;
+    border-radius: 20px;
+}
+
+.Photo6 {
+    background-color: white;
+    border-radius: 20px;
+}
+
+.Title1 {
+    margin: 50px 10px 20px;
+}
+
+.Afficher {
+    margin: 10px 10px 50px;
+}
 
