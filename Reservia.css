@@ -3,10 +3,11 @@
     src: url("Fonts/static/Raleway-Medium.ttf");
 }
 html {
-    width: 1680px;   
+    width: 1024px;   
 }
 body {
     font-family: "Raleway";
+    width: 1024px;
 }
 
 #Menu {
@@ -49,6 +50,8 @@ aside {
 
 footer {
     background-color: #F2F2F2;
+    width: 1440px;
+    text-align: left;
 }
 
 ul {
@@ -95,5 +98,11 @@ img {
 
 .Afficher {
     margin: 10px 10px 50px;
+}
+
+#Footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
