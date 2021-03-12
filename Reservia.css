@@ -3,19 +3,17 @@
     src: url("Fonts/static/Raleway-Medium.ttf");
 }
 html {
-    width: 1024px;   
+    width: 1440px;   
 }
 body {
     font-family: "Raleway";
-    width: 1024px;
+    max-width: 1440px;
 }
 
-#Menu {
+#menu {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
-    position: relative;
-    top: -80px; left: 200px;
 }
 
 .menu1 {
@@ -30,14 +28,14 @@ body {
     color:  #0065FC;
 }
 
-.Hébergements {   
+.hébergements {   
     background-color: #F2F2F2;
     border-radius: 20px;
     width: 700px;
     height: 475px;
 }
 
-#HébergementsPhotos {
+#hébergementsPhotos {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -62,47 +60,50 @@ img {
     width: 200px;
     height: 100px; 
 }
-.Photo1 {
+.photo1 {
     background-color: white;
     border-radius: 20px;
 }
 
-.Photo2 {
+.photo2 {
     background-color: white;
     border-radius: 20px;
 }
 
-.Photo3 {
+.photo3 {
     background-color: white;
     border-radius: 20px;
 }
 
-.Photo4 {
+.photo4 {
     background-color: white;
     border-radius: 20px;
 }
 
-.Photo5 {
+.photo5 {
     background-color: white;
     border-radius: 20px;
 }
 
-.Photo6 {
+.photo6 {
     background-color: white;
     border-radius: 20px;
 }
 
-.Title1 {
+.title1 {
     margin: 50px 10px 20px;
 }
 
-.Afficher {
+.afficher {
     margin: 10px 10px 50px;
 }
 
-#Footer {
+#footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
+main {
+    margin: auto;
+}
