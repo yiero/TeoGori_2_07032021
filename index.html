@@ -4,11 +4,12 @@
         <meta charset="UTF-8" />
         <link rel="stylesheet" href="Reservia.css" />
         <title>Reservia</title>
+        <script src="https://kit.fontawesome.com/8f999b2fad.js" crossorigin="anonymous"></script>
         <!-- Titre de la page-->
     </head>
     <body>
-        <header>
-            <img src="images/logo/Reservia@3x.png" alt="Logo officiel" />
+        <header>         
+            <img src="images/logo/Reservia@3x.png" alt="Logo officiel" id="logo"/>
             <div id="menu">
                 <div class="menu1">Hébergements</div>
                 <div class="menu2">Activités</div>
@@ -18,43 +19,66 @@
         <main>
             <h1><strong>Trouvez votre hébergement pour des vacances de rêve</strong></h1>
             <p>En plein centre ville ou pleine nature</p>
-            <p><strong>Filtres</strong></p>
+                <div class="recherche">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div id="champrecherche"><p><strong>Marseille,France</strong></p></div>
+                    <div id="rechercher"><p>Rechercher</p></div>
+                </div>
+            <div class="filtre" >     
+                <p><strong>Filtres</strong></p>
+                <f class="fas fa-money-bill-wave"></f>
+                <div class="filtrediff">                    
+                    <p><strong>Economique</strong></p>
+                </div>
+                <f class="fas fa-child"></f>
+                <div class="filtrediff">
+                    <p><strong>Familial</strong></p>
+                </div>
+                <f class="fas fa-heart"></f>
+                <div class="filtrediff">
+                    <p><strong>Romantique</strong></p>
+                </div>
+                <f class="fas fa-dog"></f>
+                <div class="filtrediff">
+                    <p><strong>Animaux autorisés</strong></p>
+                </div>
+            </div>      
             <p>Plus de 500 logements sont disponibles dans cette ville</p>
                 
                 <div class="hébergements">
                     <section>
                         <div class="title1"><h1>Hébergements à Marseille</h1></div>
                         <div id="hébergementsPhotos">
-                            <div class="photo1">
-                                <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge de la cannebière" />
+                            <div class="photo">
+                                <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge de la cannebière" />                                 
                                 <p><strong>Auberge la Cannebière</strong></p>
-                                <p>Nuit à partir de 25€</p>
-                            </div>
-                            <div class="photo2">
-                                <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Hôtel du port" />
+                                <p>Nuit à partir de 25€</p> 
+                            </div> 
+                            <div class="photo">
+                                <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Hôtel du port" />                                
                                 <p><strong>Hôtel du port</strong></p>
                                 <p>Nuit à partir de 52€</p>
-                            </div>
-                            <div class="photo3">
-                                <img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Hôtel Les mouettes" />
+                            </div>                                
+                            <div class="photo">
+                                <img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Hôtel Les mouettes" />                                
                                 <p><strong>Hôtel les mouettes</strong></p>
                                 <p>Nuit à partir de 76€</p>
-                            </div>
-                            <div class="photo4">
-                                <img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Hôtel de la mer" />
+                            </div>                                
+                            <div class="photo">
+                                <img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Hôtel de la mer" />                                
                                 <p><strong>Hôtel de la mer</strong></p>
                                 <p>Nuit à partir de 46€</p>
-                            </div>
-                            <div class="photo5">
-                                <img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge le Panier" />
+                            </div>                               
+                            <div class="photo">
+                                <img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge le Panier" />                                
                                 <p><strong>Auberge Le Panier</strong></p>
                                 <p>Nuit à partir de 23€</p>
-                            </div>
-                            <div class="photo6">
-                                <img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Hôtel chez Amina" />
+                            </div>                               
+                            <div class="photo">
+                                <img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Hôtel chez Amina" />                               
                                 <p><strong>Hôtel chez Amina</strong></p>
                                 <p>Nuit à partir de 96€</p>
-                            </div>
+                            </div>                                 
                         </div>
                         <div class="afficher"><strong>Afficher plus</strong></div>
                     </section>

@@ -3,11 +3,23 @@
     src: url("Fonts/static/Raleway-Medium.ttf");
 }
 html {
-    width: 1440px;   
+    max-width: 1440px;
+    padding-left: 220px;   
 }
 body {
     font-family: "Raleway";
     max-width: 1440px;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#logo {
+    width: 120px;
+    height: 60px;
 }
 
 #menu {
@@ -48,46 +60,31 @@ aside {
 
 footer {
     background-color: #F2F2F2;
-    width: 1440px;
+    min-width: 1440px;
     text-align: left;
 }
 
 ul {
     list-style-type: none;
+    padding-left: 0px;
+}
+
+li {
+    padding-bottom: 20px;
 }
 
 img {
     width: 200px;
-    height: 100px; 
+    height: 100px;
+    min-width: 120px;
+    min-height: 60px; 
 }
-.photo1 {
+.photo {
     background-color: white;
     border-radius: 20px;
-}
+    border: 20px white;
+    -moz-border-radius: 20px;
 
-.photo2 {
-    background-color: white;
-    border-radius: 20px;
-}
-
-.photo3 {
-    background-color: white;
-    border-radius: 20px;
-}
-
-.photo4 {
-    background-color: white;
-    border-radius: 20px;
-}
-
-.photo5 {
-    background-color: white;
-    border-radius: 20px;
-}
-
-.photo6 {
-    background-color: white;
-    border-radius: 20px;
 }
 
 .title1 {
@@ -106,4 +103,68 @@ img {
 
 main {
     margin: auto;
+}
+
+i {
+ background-color: #F2F2F2;
+ border-bottom-left-radius: 10px;
+ border-top-left-radius: 10px;
+ min-width: 30px;
+ max-height: 30px;
+ padding: 5px;
+ padding-left: 20px;
+ padding-top: 20px;
+}
+
+.recherche {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    height: 50px;   
+}
+
+#champrecherche {
+    min-width: 280px;
+    height: 50px;
+    padding-left: 20px;
+}
+
+#rechercher {
+    background-color: #0065FC;
+    color: white;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 1300px;  
+    width: 110px;
+    height: 40px;       
+}
+
+.filtrediff {
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 50px;
+    max-width: 140px;
+    min-width: 100px;
+    max-height: 30px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+f {
+    background-color: #DEEBFF;
+    color: #0065FC;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    padding-left: 13px;
+    padding-top: 10px;
+    
 }
