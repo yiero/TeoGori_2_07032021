@@ -45,6 +45,12 @@ h1 {
 .menu1 {
     margin: 20px 20px 20px;
     color:  #0065FC;
+    border-style: solid;
+    border-top-color: #0065FC;
+    border-bottom-color: white;
+    border-right-color: white;
+    border-left-color: white;
+   
 }
 .menu2 {
     margin: 20px 20px 20px;
@@ -54,18 +60,20 @@ h1 {
     color:  #0065FC;
 }
 
-.hébergements {   
+#hébergements {   
     background-color: #F2F2F2;
     border-radius: 20px;
-    width: 700px;
-    height: 475px;
+    width: 850px;
+    height: 650px;  
 }
 
 #hébergementsPhotos {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;  
 }
 
 aside {
@@ -95,18 +103,52 @@ img {
 }
 .photo {
     background-color: white;
-    border-radius: 20px;
+    border-radius: 20px; 
     border: 20px white;
-    -moz-border-radius: 20px;
+    padding-top: 5px;
+    margin-bottom: 60px;
+    box-shadow: 2px 2px 15px grey;
+    line-height: 0.5em;
 
+}
+
+.photo1 {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;  
+    margin-left: 5px;   
+    margin-right: 5px;
+}
+
+.txt {
+    margin-left: 10px;
+}
+
+.etoiles {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.etoilesbleus {
+    padding-left: 10px;
+    margin-bottom: 5px;
+    color:  #0065FC;
+}
+
+.etoilesgrises {
+    padding-left: 5px;   
+    padding-bottom: 10px;
+    color: rgb(185, 185, 185);
 }
 
 .title1 {
-    margin: 50px 10px 20px;
+    padding-top: 5px;
+    padding-left: 40px;
+    
 }
 
 .afficher {
-    margin: 10px 10px 50px;
+    padding-bottom: 10px;
+    padding-left: 50px;
 }
 
 #footer {
@@ -148,6 +190,10 @@ main {
 input {
     min-width: 280px;
     min-height: 40px;
+    border: none;
+    font-weight: bold;
+    font-family: "Raleway";
+    margin-left: 10px;
 }
 
 #rechercher {
@@ -170,12 +216,13 @@ input {
 
 .filtrediff {
     border-width: 0.5px;
-    border-style: solid;
-    border-color: rgb(134, 134, 134);
+    border-style: ridge;
+    border-color: rgba(143, 143, 143, 0.377);
+    border-left-color: white;
     border-radius: 50px;
     max-width: 200px;
     min-width: 100px;
-    max-height: 25px;
+    max-height: 24px;
     padding-top: 9px; 
     padding-bottom: 9px;  
     padding-right: 20px;
@@ -187,11 +234,12 @@ input {
 .logofiltre {
     background-color: #DEEBFF;
     color: #0065FC;
-    width: 30px;
-    height: 30px;
+    width: 32px;
+    height: 33px;
     border-radius: 50px;
     padding-left: 13px;
     padding-top: 10px;
+    margin-right: 10px;
     
 }
 
@@ -200,4 +248,21 @@ button {
     border: none;
     color: white;
     
+}
+
+#informations {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#info {
+    width: 1px;
+    height: 3px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-left: 10px;
+    color: #0065FC;
+    border-radius: 50px;
+    
+   
 }
