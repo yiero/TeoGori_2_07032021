@@ -26,8 +26,7 @@ header {
 h1 {
     font-family: "Rancho";
     color: #0065FC;
-    width: 120px;
-    height: 60px;
+    
     text-align: left;
 }
 
@@ -204,6 +203,7 @@ input {
     padding-bottom: 20px;
     padding-left: 10px;
     padding-right: 10px;
+    margin-left: 10px;
     width: 110px;
     max-height: 20px;          
 }
@@ -258,11 +258,47 @@ button {
 #info {
     width: 1px;
     height: 3px;
-    padding-right: 10px;
+    padding-right: 20px;
     padding-top: 15px;
     padding-left: 10px;
     color: #0065FC;
     border-radius: 50px;
     
    
+}
+
+.photo2 {
+    border-radius: 20px 0px 0px 20px;
+    width: 50px;
+    height: 110px;
+    margin: 5px; 
+}
+
+.populaires {
+    border-radius: 20px;
+    background-color: white;
+    margin: 0px 30px 30px 30px;
+    display: flex;
+    align-items: flex-end;
+}
+
+#hebergementspopulaires {
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    width: 400px;
+    height: 650px;   
+}
+
+#titre2 {
+    margin: 30px 0px 60px 30px;
+}
+
+#hébergementsmarseille {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.txt2 {
+    padding-bottom: 20px;
 }
