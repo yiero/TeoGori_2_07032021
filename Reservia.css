@@ -278,7 +278,7 @@ button {
 .populaires {
     border-radius: 20px;
     background-color: white;
-    margin: 30px 30px 30px 30px;
+    margin: 30px 30px 40px 30px;
     display: flex;
     box-shadow: 2px 2px 15px grey;
 }
@@ -321,4 +321,35 @@ button {
     padding-left: 4px;   
     padding-bottom: 10px;
     color: rgb(185, 185, 185);
+}
+
+#activités { 
+    display: flex;
+    flex-wrap: wrap;     
+}
+
+.activitésmarseille {
+    border-radius: 20px;
+    box-shadow: 0px 5px 1px #F2F2F2;
+}
+
+.activités2 {
+    
+}
+
+.photo3 {
+    border-radius: 20px 20px 0px 0px;
+    width: 250px;
+    height: 350px;
+}
+
+.photo4 {
+    border-radius: 20px 20px 0px 0px;
+    width: 250px;
+}
+
+.txt3 {
+    margin-left: 20px;
+   margin-bottom: 20px;
+   line-height: 2em;
 }
