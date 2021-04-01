@@ -222,32 +222,47 @@ input {
 }
 
 .filtrediff {
-    border-width: 0.5px;
-    border-style: ridge;
-    border-color: rgba(143, 143, 143, 0.377);
-    border-left-color: white;
-    border-radius: 50px;
     max-width: 200px;
     min-width: 100px;
-    max-height: 24px;
-    padding-top: 9px; 
-    padding-bottom: 9px;  
+    max-height: 80px; 
     padding-right: 20px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
 }
 
+.filtre1 {
+    border-width: 0.5px 0px 0.5px 0.5px;
+    border-style: solid;
+    border-radius: 50px 0px 0px 50px ;
+    border-color:  rgba(143, 143, 143, 0.377) transparent; 
+}
+
+.txtfiltre {
+    font-family: "Raleway";
+    min-width: 51px;
+    min-height: 51px;
+    color: black;
+    border-width: 0.5px;
+    border-style: solid;
+    border-color:  rgba(143, 143, 143, 0.377)  rgba(143, 143, 143, 0.377)  rgba(143, 143, 143, 0.377) transparent ;
+    border-radius: 0px 50px 50px 0px;
+    padding-right: 20px;
+}
+
+.txtfiltre:hover {
+    border-color: #0065FC;
+}
+
 .logofiltre {
-    background-color: #DEEBFF;
     color: #0065FC;
-    width: 32px;
-    height: 33px;
+    background-color: #DEEBFF;
+    width: 51px;
+    height: 49px;
     border-radius: 50px;
-    padding-left: 13px;
-    padding-top: 10px;
-    margin-right: 10px;
-    
+    justify-content: center;
+    align-items: center;
+    display: flex;    
 }
 
 button {
