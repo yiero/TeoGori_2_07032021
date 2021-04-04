@@ -25,8 +25,7 @@ header {
 
 h1 {
     font-family: "Rancho";
-    color: #0065FC;
-    
+    color: #0065FC;  
     text-align: left;
 }
 
@@ -221,15 +220,15 @@ input {
 
 .filtre {
     display: flex;
-    justify-content: space-between;
-    max-width: 900px;
+    justify-content: flex-start;
+    padding-bottom: 30px;
 }
 
 .filtrediff {
     max-width: 200px;
     min-width: 100px;
     max-height: 80px; 
-    padding-right: 20px;
+    padding: 0px 40px 0px 40px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
