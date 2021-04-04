@@ -81,7 +81,7 @@ aside {
 
 footer {
     background-color: #F2F2F2;
-    min-width: 1440px;
+    max-width: 1440px;
     text-align: left;
     border-radius: 20px;
 }
@@ -167,15 +167,15 @@ main {
 }
 
 #localisation {
- background-color: #F2F2F2;
- border-bottom-left-radius: 10px;
- border-top-left-radius: 10px;
- min-width: 30px;
- height: 20px;
- padding: 5px;
- padding-left: 25px;
- padding-top: 10px;
- padding-bottom: 10px;
+    background-color: #F2F2F2;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    min-width: 30px;
+    height: 20px;
+    padding: 5px;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .recherche {
@@ -311,9 +311,7 @@ button {
 
 #hebergementspopulaires {
     background-color: #F2F2F2;
-    border-radius: 20px;
-    width: 470px;
-    height: 650px;   
+    border-radius: 20px;   
 }
 
 #titre2 {
