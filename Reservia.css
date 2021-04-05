@@ -65,9 +65,8 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding-left: 20px;
-    padding-right: 20px; 
-    max-width: 850px; 
+    flex-direction: row;
+    align-content: center;
 }
 
 aside {
@@ -326,7 +325,7 @@ button {
 #hébergementsmarseille {
     display: flex;
     flex-wrap: wrap-reverse;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-bottom: 30px;
 }
 
@@ -355,6 +354,7 @@ button {
 #activités { 
     display: flex;
     flex-wrap: wrap; 
+    justify-content: space-around;
     padding-bottom: 50px;
 }
 
