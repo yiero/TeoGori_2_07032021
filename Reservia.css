@@ -19,8 +19,7 @@ body {
 header {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    block-size: 70px;  
+    justify-content: space-between;  
 }
 
 h1 {
@@ -44,11 +43,7 @@ h1 {
     margin: 20px 20px 20px;
     color:  #0065FC;
     border-style: solid;
-    border-top-color: #0065FC;
-    border-bottom-color: white;
-    border-right-color: white;
-    border-left-color: white;
-   
+    border-color: #0065FC white white;  
 }
 .menu2 {
     margin: 20px 20px 20px;
@@ -71,7 +66,8 @@ h1 {
     flex-wrap: wrap;
     justify-content: space-around;
     padding-left: 20px;
-    padding-right: 20px;  
+    padding-right: 20px; 
+    max-width: 850px; 
 }
 
 aside {
@@ -105,11 +101,11 @@ img {
     border-radius: 20px; 
     border: 20px white;
     padding-top: 5px;
-    margin-bottom: 60px;
+    margin: 0px 30px 60px 30px;
     box-shadow: 2px 2px 15px grey;
     line-height: 0.5em;
-    min-width: 210px;
-    min-height: 190px;
+    width: 210px;
+    height: 190px;
 
 }
 
@@ -182,7 +178,6 @@ main {
 .recherche {
     display: flex;
     justify-content: flex-start;
-    min-width: 400px;
     height: 50px; 
     padding-bottom: 30px;  
 }
@@ -308,12 +303,14 @@ button {
     background-color: white;
     margin: 30px 30px 40px 30px;
     display: flex;
+    min-width: 400px;
     box-shadow: 2px 2px 15px grey;
 }
 
 #hebergementspopulaires {
     background-color: #F2F2F2;
-    border-radius: 20px;   
+    border-radius: 20px;
+    margin-bottom: 30px;   
 }
 
 #titre2 {
@@ -328,7 +325,7 @@ button {
 
 #hébergementsmarseille {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     justify-content: space-between;
     padding-bottom: 30px;
 }
