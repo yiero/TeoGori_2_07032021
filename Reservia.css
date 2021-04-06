@@ -8,7 +8,7 @@
     src: url("Fonts/Rancho-Regular.ttf");
 }
 html {
-       
+    margin: 10px; 
 }
 body {
     font-family: "Raleway";
@@ -359,26 +359,27 @@ button {
 .activitésmarseille {
     border-radius: 20px;
     box-shadow: 0px 5px 1px #F2F2F2;
-    margin-bottom: 10px;  
+    margin-bottom: 20px;
 }
 
 .activités2 {
-    padding: 0px 10px 0px 10px;
     display: grid;
     grid-gap: 1em;
 }
 
 .photo3 {
     border-radius: 20px 20px 0px 0px;
-    min-width: 350px;
-    min-height: 550px;
+    width: 370px;
+    max-width: 100%;
+    height: 550px;
+    min-height: 220px;
     object-fit: cover;
 }
 
 .photo4 {
     border-radius: 20px 20px 0px 0px;
-    min-width: 350px;
-    min-height: 220px;
+    width: 370px;
+    height: 220px;
     object-fit: cover;
 }
 
@@ -387,6 +388,3 @@ button {
    line-height: 2em;
 }
 
-#h2activités {
-    margin-left: 60px;
-}
