@@ -8,12 +8,11 @@
     src: url("Fonts/Rancho-Regular.ttf");
 }
 html {
-    max-width: 1440px;
-    margin: auto;   
+       
 }
 body {
     font-family: "Raleway";
-    max-width: 1440px;
+    
 }
 
 header {
@@ -75,7 +74,6 @@ aside {
 
 footer {
     background-color: #F2F2F2;
-    max-width: 1440px;
     text-align: left;
     border-radius: 20px;
 }
@@ -159,7 +157,7 @@ img {
 }
 
 main {
-    margin: auto;
+    
 }
 
 #localisation {
@@ -361,31 +359,34 @@ button {
 .activitésmarseille {
     border-radius: 20px;
     box-shadow: 0px 5px 1px #F2F2F2;
-    margin-bottom: 30px;  
+    margin-bottom: 10px;  
 }
 
 .activités2 {
-    padding: 0px 100px 0px 100px;
+    padding: 0px 10px 0px 10px;
     display: grid;
-    grid-gap: 5em;
+    grid-gap: 1em;
 }
 
 .photo3 {
     border-radius: 20px 20px 0px 0px;
-    min-width: 250px;
-    min-height: 350px;
+    min-width: 350px;
+    min-height: 550px;
     object-fit: cover;
 }
 
 .photo4 {
     border-radius: 20px 20px 0px 0px;
-    width: 250px;
+    min-width: 350px;
+    min-height: 220px;
     object-fit: cover;
 }
 
 .txt3 {
    margin-left: 20px;
-   margin-bottom: 20px;
    line-height: 2em;
 }
 
+#h2activités {
+    margin-left: 60px;
+}
