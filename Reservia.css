@@ -8,7 +8,7 @@
     src: url("Fonts/Rancho-Regular.ttf");
 }
 html {
-    margin: 10px; 
+    margin: 20px; 
 }
 body {
     font-family: "Raleway";
@@ -55,8 +55,8 @@ h1 {
 #hébergements {   
     background-color: #F2F2F2;
     border-radius: 20px;
-    width: 850px;
-    height: 650px;
+    width: 1100px;
+    height: auto;
     margin-bottom: 30px;  
 }
 
@@ -66,6 +66,7 @@ h1 {
     justify-content: space-around;
     flex-direction: row;
     align-content: center;
+    margin: 20px;
 }
 
 aside {
@@ -75,7 +76,6 @@ aside {
 footer {
     background-color: #F2F2F2;
     text-align: left;
-    border-radius: 20px;
 }
 
 ul {
@@ -88,21 +88,21 @@ li {
 }
 
 img {
-    width: 200px;
-    height: 100px;
-    min-width: 120px;
+    width: 320px;
+    height: 170px;
+    min-width: 200px;
     min-height: 60px; 
 }
 .photo {
     background-color: white;
     border-radius: 20px; 
     border: 20px white;
+    margin-bottom: 30px;
     padding-top: 5px;
-    margin: 0px 30px 60px 30px;
     box-shadow: 2px 2px 15px grey;
     line-height: 0.5em;
-    width: 210px;
-    height: 190px;
+    width: 330px;
+    height: 270px;
 
 }
 
@@ -115,17 +115,18 @@ img {
 }
 
 .txt {
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 .etoiles {
     display: flex;
     justify-content: flex-start;
+    margin-left: 10px;
 }
 
 .etoilesbleus {
-    padding-left: 10px;
     margin-bottom: 5px;
+    margin-left: 10px;
     color:  #0065FC;
 }
 
@@ -138,11 +139,12 @@ img {
 .title1 {
     padding-top: 5px;
     padding-left: 40px;
+    margin-top: 30px;
     
 }
 
 .afficher {
-    padding-bottom: 10px;
+    margin-bottom: 20px;
     padding-left: 50px;
 }
 
@@ -154,10 +156,8 @@ img {
 
 .footer1 {
     flex-wrap: wrap;
-}
-
-main {
-    
+    width: 500px;
+    margin-left: 50px;
 }
 
 #localisation {
@@ -273,6 +273,7 @@ button {
 #informations {
     display: flex;
     justify-content: flex-start;
+    padding-bottom: 40px;
 }
 
 #info {
@@ -289,8 +290,8 @@ button {
 
 .photo2 {
     border-radius: 20px 0px 0px 20px;
-    width: 50px;
-    height: 110px;
+    width: 100px;
+    height: 180px;
     margin: 5px; 
     object-fit: cover;
 }
@@ -307,7 +308,9 @@ button {
 #hebergementspopulaires {
     background-color: #F2F2F2;
     border-radius: 20px;
-    margin-bottom: 30px;   
+    margin-bottom: 30px;
+    width: 700px; 
+    height: auto;  
 }
 
 #titre2 {
@@ -330,23 +333,24 @@ button {
 
 .txt2 {   
     line-height: 1em;
-    padding-left: 10px;
+    padding-left: 30px;
 }
 
 .etoiles2 {
     display: flex;
-    align-items: end;
+    align-items: flex-end;
 }
 
 .etoilesbleus2 {
     color:  #0065FC;
+    align-items: flex-end;
 }
 
 
 .etoilesgrises2 {
-    padding-left: 4px;   
-    padding-bottom: 10px;
+    margin-left: 4px;   
     color: rgb(185, 185, 185);
+    align-items: flex-end;
 }
 
 #activités { 
@@ -354,17 +358,19 @@ button {
     flex-wrap: wrap; 
     justify-content: space-around;
     padding-bottom: 50px;
+    height: auto;
 }
 
 .activitésmarseille {
     border-radius: 20px;
     box-shadow: 0px 5px 1px #F2F2F2;
     margin-bottom: 20px;
+    height: auto;
 }
 
 .activités2 {
     display: grid;
-    grid-gap: 1em;
+    grid-gap: 2em;
 }
 
 .photo3 {
@@ -379,12 +385,23 @@ button {
 .photo4 {
     border-radius: 20px 20px 0px 0px;
     width: 370px;
-    height: 220px;
+    height: 280px;
+    object-fit: cover;
+}
+
+.photo5 {
+    border-radius: 20px 20px 0px 0px;
+    width: 370px;
+    height: 140px;
     object-fit: cover;
 }
 
 .txt3 {
    margin-left: 20px;
    line-height: 2em;
+}
+
+#activitéh2 {
+    margin-left: 50px;
 }
 
