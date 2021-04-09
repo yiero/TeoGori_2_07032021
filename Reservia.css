@@ -27,10 +27,7 @@ h1 {
     text-align: left;
 }
 
-#logo {
-    width: 120px;
-    height: 60px;
-}
+
 
 #menu {
     display: flex;
@@ -75,7 +72,10 @@ aside {
 
 footer {
     background-color: #F2F2F2;
-    text-align: left;
+    text-align: left;   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 ul {
@@ -146,12 +146,6 @@ img {
 .afficher {
     margin-bottom: 20px;
     padding-left: 50px;
-}
-
-#footer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
 }
 
 .footer1 {
