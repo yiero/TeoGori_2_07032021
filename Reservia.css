@@ -7,6 +7,9 @@
     font-family: "Rancho";
     src: url("Fonts/Rancho-Regular.ttf");
 }
+
+
+
 html {
     margin: 20px; 
 }
@@ -89,9 +92,7 @@ li {
 
 img {
     width: 320px;
-    height: 170px;
-    min-width: 200px;
-    min-height: 60px; 
+    height: 170px; 
 }
 .photo {
     background-color: white;
@@ -103,8 +104,8 @@ img {
     line-height: 0.5em;
     width: 330px;
     height: 270px;
-
 }
+
 
 .photo1 {
     border-top-right-radius: 20px;
@@ -180,13 +181,12 @@ input {
     margin-left: 5px;
 }
 
-#rechercher {
+#rechercher {   
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
     padding-bottom: 20px;
     width: 110px;
     max-height: 20px; 
-            
 }
 
 .search {
@@ -196,11 +196,39 @@ input {
     border-radius: 0px 15px 15px 0px;
     font-family: "Raleway"; 
 }
+@media screen and (max-width: 500px) {
+    .search {
+    border-radius: 10px;
+    }
+}
 
 #txtbouton {
     margin: 12px 10px 12px 10px;
 }
 
+#iconbouton {
+    margin: 12px 10px 12px 10px;
+}
+
+@media screen and (max-width: 500px) {
+    #txtbouton {
+        display: none;
+    }
+
+    #iconbouton {
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width: 501px) {
+    #txtbouton {
+        display: inline-block;
+    }
+
+    #iconbouton {
+        display: none;
+    }
+}
 .filtre {
     display: flex;
     justify-content: space-between;
@@ -280,7 +308,7 @@ button {
 
 .photo2 {
     border-radius: 20px 0px 0px 20px;
-    width: 100px;
+    width: 200px;
     height: 180px;
     margin: 5px; 
     object-fit: cover;
@@ -291,7 +319,6 @@ button {
     background-color: white;
     margin: 30px 30px 40px 30px;
     display: flex;
-    min-width: 400px;
     box-shadow: 2px 2px 15px grey;
 }
 
@@ -360,14 +387,13 @@ button {
 
 .activités2 {
     display: grid;
-    grid-gap: 2em;
+    grid-gap: 2em; 
 }
 
 .photo3 {
     border-radius: 20px 20px 0px 0px;
     width: 370px;
     height: 550px;
-    min-height: 220px;
     object-fit: cover;
 }
 
@@ -394,3 +420,50 @@ button {
     margin-left: 50px;
 }
 
+@media screen and (max-width: 500px) {
+    .photo1, .photo3, .photo4, .photo5 {
+        width: 310px;
+        height: 120px;
+    }
+}
+
+@media  screen and (max-width: 500px) {
+    .photo {
+        height: auto;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #hebergementspopulaires {
+        height: auto;
+        align-items: center;
+        align-content: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .photo2 {
+        width: 120px;
+        height: auto;
+    }    
+}
+
+@media screen and (max-width: 500px) {
+    .populaires {
+        width: 310px;
+        height: 160px;
+    }
+}
+
+@media  screen and (max-width: 500px) {
+    .activités2 {
+        grid-gap: 0em;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #titre2 {
+        justify-content: center;
+    }
+}
