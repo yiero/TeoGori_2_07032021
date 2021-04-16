@@ -31,7 +31,6 @@ h1 {
 }
 
 
-
 #menu {
     display: flex;
     flex-wrap: wrap;
@@ -196,39 +195,16 @@ input {
     border-radius: 0px 15px 15px 0px;
     font-family: "Raleway"; 
 }
-@media screen and (max-width: 500px) {
-    .search {
-    border-radius: 10px;
-    }
-}
 
-#txtbouton {
+
+#txtbouton > div {
     margin: 12px 10px 12px 10px;
 }
 
-#iconbouton {
+#iconbouton > div{
     margin: 12px 10px 12px 10px;
 }
 
-@media screen and (max-width: 500px) {
-    #txtbouton {
-        display: none;
-    }
-
-    #iconbouton {
-        display: inline-block;
-    }
-}
-
-@media screen and (min-width: 501px) {
-    #txtbouton {
-        display: inline-block;
-    }
-
-    #iconbouton {
-        display: none;
-    }
-}
 .filtre {
     display: flex;
     justify-content: space-between;
@@ -326,7 +302,7 @@ button {
     background-color: #F2F2F2;
     border-radius: 20px;
     margin-bottom: 30px;
-    width: 700px; 
+    width: 600px; 
     height: auto;  
 }
 
@@ -425,45 +401,46 @@ button {
         width: 310px;
         height: 120px;
     }
-}
-
-@media  screen and (max-width: 500px) {
     .photo {
         height: auto;
         width: auto;
     }
-}
-
-@media screen and (max-width: 500px) {
     #hebergementspopulaires {
         height: auto;
         align-items: center;
         align-content: center;
     }
-}
-
-@media screen and (max-width: 500px) {
     .photo2 {
         width: 120px;
         height: auto;
-    }    
-}
-
-@media screen and (max-width: 500px) {
+    }
     .populaires {
         width: 310px;
         height: 160px;
     }
-}
-
-@media  screen and (max-width: 500px) {
     .activités2 {
         grid-gap: 0em;
     }
-}
-
-@media screen and (max-width: 500px) {
     #titre2 {
         justify-content: center;
     }
+    #txtbouton {
+        display: none;
+    }
+    #iconbouton {
+        display: inline-block;
+    }
+    .search {
+        border-radius: 10px;
+    }
+
 }
+
+@media screen and (min-width: 501px) {
+    #txtbouton {
+        display: inline-block;
+    }
+
+    #iconbouton {
+        display: none;
+    }
