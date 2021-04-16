@@ -424,14 +424,14 @@ button {
     #titre2 {
         justify-content: center;
     }
+    .search {
+        border-radius: 10px;
+    }
     #txtbouton {
         display: none;
     }
     #iconbouton {
         display: inline-block;
-    }
-    .search {
-        border-radius: 10px;
     }
 
 }
@@ -444,3 +444,4 @@ button {
     #iconbouton {
         display: none;
     }
+}
