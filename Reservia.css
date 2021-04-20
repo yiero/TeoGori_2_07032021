@@ -31,7 +31,7 @@ h1 {
 }
 
 
-#menu {
+nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
@@ -41,7 +41,8 @@ h1 {
     margin: 20px 20px 20px;
     color:  #0065FC;
     border-style: solid;
-    border-color: #0065FC white white;  
+    border-color: #0065FC white white;
+    border-width: 0.1em;  
 }
 .menu2 {
     margin: 20px 20px 20px;
@@ -433,7 +434,9 @@ button {
     #iconbouton {
         display: inline-block;
     }
-
+    nav {
+        flex-wrap: wrap-reverse;
+    }
 }
 
 @media screen and (min-width: 501px) {
