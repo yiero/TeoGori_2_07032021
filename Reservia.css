@@ -181,12 +181,11 @@ input {
     margin-left: 5px;
 }
 
-#rechercher {   
+#rechercherbouton {   
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
-    padding-bottom: 20px;
     width: 110px;
-    max-height: 20px; 
+     
 }
 
 .search {
@@ -195,16 +194,10 @@ input {
     color: white;
     border-radius: 0px 15px 15px 0px;
     font-family: "Raleway"; 
+    height: 100%;
+    
 }
 
-
-#txtbouton > div {
-    margin: 12px 10px 12px 10px;
-}
-
-#iconbouton > div{
-    margin: 12px 10px 12px 10px;
-}
 
 .filtre {
     display: flex;
@@ -427,6 +420,8 @@ button {
     }
     .search {
         border-radius: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
     #txtbouton {
         display: none;
