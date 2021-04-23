@@ -8,7 +8,9 @@
     src: url("Fonts/Rancho-Regular.ttf");
 }
 
-
+.bouton1 {
+    text-decoration: none;
+}
 
 html {
     margin: 20px; 
