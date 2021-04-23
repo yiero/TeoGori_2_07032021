@@ -35,15 +35,18 @@ nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
+    align-items: flex-end; 
+    
 }
 
 .menu1 {
     margin: 20px 20px 20px;
-    color:  #0065FC;
+    color:  #0065FC; 
     border-style: solid;
     border-color: #0065FC white white;
-    border-width: 0.1em;  
+    border-width: 0.1em;   
 }
+
 .menu2 {
     margin: 20px 20px 20px;
 }
@@ -51,6 +54,8 @@ nav {
     margin: 20px 20px 20px;
     color:  #0065FC;
 }
+
+
 
 #hébergements {   
     background-color: #F2F2F2;
@@ -437,6 +442,11 @@ button {
     }
     h1 {
         margin-bottom: 0px;
+    }
+    .menu1 {
+        border-style: solid;
+        border-color:white white #0065FC;
+        border-width: 0.1em;
     }
 
 }
