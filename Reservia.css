@@ -13,7 +13,7 @@
 }
 
 body {
-    font-family: "Raleway";  
+    font-family: "Raleway"; 
 }
 
 header {
@@ -461,5 +461,26 @@ button {
 
     #iconbouton {
         display: none;
+    }
+}
+
+@media  screen and (min-width: 1501px) {
+    img {
+        width: 300px;
+    } 
+    .photo {
+        width: 310px
+    }
+    #hébergements {
+        width: 1100px;
+    }
+    .photo2 {
+        width: 180px;
+    }
+    #hebergementspopulaires {
+        width: 580px;
+    }
+    .photo3, .photo4, .photo5 {
+        width: 350px
     }
 }
