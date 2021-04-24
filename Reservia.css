@@ -12,18 +12,19 @@
     text-decoration: none;
 }
 
-html {
-    margin: 20px; 
-}
 body {
-    font-family: "Raleway";
-    
+    font-family: "Raleway";  
 }
 
 header {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;  
+    justify-content: space-between; 
+    margin: 20px 20px 0px 20px; 
+}
+
+main {
+    margin: 0px 20px 0px 20px;
 }
 
 h1 {
@@ -62,7 +63,7 @@ nav {
 #hébergements {   
     background-color: #F2F2F2;
     border-radius: 20px;
-    width: 1100px;
+    width: 900px; 
     height: auto;
     margin-bottom: 30px;  
 }
@@ -98,8 +99,8 @@ li {
 }
 
 img {
-    width: 320px;
-    height: 170px; 
+    width: 260px;
+    height: 140px; 
 }
 .photo {
     background-color: white;
@@ -109,8 +110,8 @@ img {
     padding-top: 5px;
     box-shadow: 2px 2px 15px grey;
     line-height: 0.5em;
-    width: 330px;
-    height: 270px;
+    width: 270px;
+    height: auto;
 }
 
 
@@ -146,9 +147,8 @@ img {
 
 .title1 {
     padding-top: 5px;
-    padding-left: 40px;
-    margin-top: 30px;
-    
+    margin-left: 20px;
+    margin-top: 30px;  
 }
 
 .afficher {
@@ -158,8 +158,8 @@ img {
 
 .footer1 {
     flex-wrap: wrap;
-    width: 500px;
-    margin-left: 50px;
+    width: 350px;
+    margin-left: 20px;
 }
 
 #localisation {
@@ -208,7 +208,7 @@ input {
 
 .filtre {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     padding-bottom: 30px;
     flex-wrap: wrap;
     min-width: 300px;
@@ -222,6 +222,7 @@ input {
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    padding-left: 10px;
 }
 
 .filtre1 {
@@ -285,8 +286,8 @@ button {
 
 .photo2 {
     border-radius: 20px 0px 0px 20px;
-    width: 200px;
-    height: 180px;
+    width: 140px;
+    height: 150px;
     margin: 5px; 
     object-fit: cover;
 }
@@ -303,7 +304,7 @@ button {
     background-color: #F2F2F2;
     border-radius: 20px;
     margin-bottom: 30px;
-    width: 600px; 
+    width: auto; 
     height: auto;  
 }
 
@@ -369,21 +370,21 @@ button {
 
 .photo3 {
     border-radius: 20px 20px 0px 0px;
-    width: 370px;
+    width: 300px;
     height: 550px;
     object-fit: cover;
 }
 
 .photo4 {
     border-radius: 20px 20px 0px 0px;
-    width: 370px;
+    width: 300px;
     height: 280px;
     object-fit: cover;
 }
 
 .photo5 {
     border-radius: 20px 20px 0px 0px;
-    width: 370px;
+    width: 300px;
     height: 140px;
     object-fit: cover;
 }
@@ -394,7 +395,7 @@ button {
 }
 
 #activitéh2 {
-    margin-left: 50px;
+    margin-left: 20px;
 }
 
 @media screen and (max-width: 500px) {
