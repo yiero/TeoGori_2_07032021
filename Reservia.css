@@ -13,7 +13,8 @@
 }
 
 body {
-    font-family: "Raleway"; 
+    font-family: "Raleway";
+    margin: 0px; 
 }
 
 header {
@@ -454,7 +455,7 @@ button {
         border-width: 0.1em;
     }
     #activitéh2 {
-        margin-left: 0px;
+        margin-left: -10px;
     }
     #hébergements {
         background-color: white;
@@ -469,6 +470,9 @@ button {
         padding-left: 0px;
         width: auto;
         min-height: 60px;
+    }
+    .title1 {
+        margin-left: 25px;
     }
 }
 
