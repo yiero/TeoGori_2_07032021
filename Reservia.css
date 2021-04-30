@@ -43,12 +43,15 @@ nav {
     
 }
 
-.menu1 {
-    margin: 20px 20px 20px;
-    color:  #0065FC; 
+#leshébergements {
     border-style: solid;
     border-color: #0065FC white white;
     border-width: 0.1em;   
+}
+
+.menu1 {
+    margin: 20px 20px 20px;
+    color:  #0065FC; 
 }
 
 .menu2 {
@@ -449,7 +452,7 @@ button {
     h1 {
         margin-bottom: 0px;
     }
-    .menu1 {
+    #leshébergements {
         border-style: solid;
         border-color:white white #0065FC;
         border-width: 0.1em;
