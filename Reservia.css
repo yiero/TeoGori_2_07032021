@@ -18,7 +18,7 @@ body {
 }
 
 header {
-    display: flex;
+    
     flex-wrap: wrap;
     justify-content: space-between; 
     margin: 20px 20px 0px 20px; 
@@ -39,26 +39,28 @@ nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
-    align-items: flex-end; 
-    
+    align-items: flex-end;   
 }
 
-#leshébergements {
+#flexmenu {
+    display: flex;
+    align-items: flex-end;
+}
+
+#menu1 {
+    margin: 0px 20px 20px;
+    color:  #0065FC; 
+    padding-top: 40px;
     border-style: solid;
     border-color: #0065FC white white;
-    border-width: 0.1em;   
+    border-width: 0.15em;
 }
 
-.menu1 {
-    margin: 20px 20px 20px;
-    color:  #0065FC; 
+#menu2 {
+    margin: 0px 20px 20px;
 }
-
-.menu2 {
-    margin: 20px 20px 20px;
-}
-.menu3 {
-    margin: 20px 20px 20px;
+#menu3 {
+    margin: 0px 20px 20px;
     color:  #0065FC;
 }
 
@@ -444,10 +446,13 @@ button {
         display: inline-block;
     }
     nav {
+        display: flex;
         flex-wrap: wrap-reverse;
+        justify-content: flex-end;
     }
-    .menu3 {
-        margin-top: -30px;
+    #menu3 {
+        margin: -28px -50px 25px 0px;
+        flex-basis: 50%;
     }
     h1 {
         margin-bottom: 0px;
@@ -455,7 +460,7 @@ button {
     #leshébergements {
         border-style: solid;
         border-color:white white #0065FC;
-        border-width: 0.1em;
+        border-width: 0.15em;
     }
     #activitéh2 {
         margin-left: -10px;
@@ -463,8 +468,32 @@ button {
     #hébergements {
         background-color: white;
     }
-    .menu1, .menu2 {
+    #menu1, #menu2 {
         justify-content: center;
+        padding-top: 0px;
+        margin: 0px;
+        padding-bottom: 20px;
+        flex-basis: 48%;
+        text-align: center;
+        order: 2;
+    }  
+    #menu1 {
+        border-style: solid;
+        border-color:white white #0065FC;
+        border-width: 0.15em;
+    }
+    #menu2 {
+        border-style: solid;
+        border-color:white white rgb(190, 190, 190);
+        border-width: 0.15em;
+    }
+    #flexmenu {
+        flex-basis: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        
     }
     #titrebloc {
         width: 100%;
@@ -486,6 +515,10 @@ button {
 
     #iconbouton {
         display: none;
+    }
+
+    header {
+        display: flex;
     }
 }
 
