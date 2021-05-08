@@ -539,4 +539,12 @@ button {
     }
 }
 
+@media screen and (min-width: 450px) and (max-width: 950px){
+    .photo {
+        width: 310px;
+    }
+    img {
+        width: 300px;
+    }
+}
   
