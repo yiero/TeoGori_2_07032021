@@ -14,7 +14,8 @@
 
 body {
     font-family: "Raleway";
-    margin: 0px; 
+    margin: auto; 
+    max-width: 1500px;
 }
 
 header {
@@ -80,7 +81,6 @@ nav {
     justify-content: space-around;
     flex-direction: row;
     align-content: center;
-    margin: 20px;
 }
 
 aside {
@@ -404,7 +404,7 @@ button {
     margin-left: 20px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 425px) {
     .photo1, .photo3, .photo4, .photo5 {
         width: 340px;
         height: 120px;
@@ -424,7 +424,7 @@ button {
         height: auto;
     }
     .populaires {
-        width: 340px;
+        width: 314px;
         height: 160px;
     }
     .activités2 {
@@ -432,7 +432,7 @@ button {
     }
     #titre2 {
         justify-content: space-between;
-        margin: 30px 10px 30px 20px;
+        margin: 30px 0px 30px 4px;
     }
     .search {
         border-radius: 10px;
@@ -451,8 +451,8 @@ button {
         justify-content: flex-end;
     }
     #menu3 {
-        margin: -28px -50px 25px 0px;
-        flex-basis: 50%;
+        margin: -28px 0px 25px 0px;
+        flex-basis: 35%;
     }
     h1 {
         margin-bottom: 0px;
@@ -467,6 +467,7 @@ button {
     }
     #hébergements {
         background-color: white;
+        width: auto;
     }
     #menu1, #menu2 {
         justify-content: center;
@@ -506,6 +507,9 @@ button {
     .title1 {
         margin-left: 25px;
     }
+    .txt2 {
+        padding-left: 17px;
+    }
 }
 
 @media screen and (min-width: 501px) {
@@ -522,26 +526,4 @@ button {
     }
 }
 
-@media  screen and (min-width: 1735px) {
-    img {
-        width: 300px;
-    } 
-    .photo {
-        width: 310px
-    }
-    #hébergements {
-        width: 1100px;
-    }
-    .photo2 {
-        width: 180px;
-    }
-    #hebergementspopulaires {
-        width: 580px;
-    }
-    .photo3, .photo4, .photo5 {
-        width: 350px
-    }
-    #activitéh2 {
-        margin-left: 40px;
-    }
-}
+  
