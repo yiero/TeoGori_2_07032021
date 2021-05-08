@@ -57,8 +57,16 @@ nav {
     border-width: 0.15em;
 }
 
+.bouton2 {
+    text-decoration: none;
+    color: #0065FC;
+}
 #menu2 {
     margin: 0px 20px 20px;
+}
+.bouton3 {
+    text-decoration: none;
+    color: black;
 }
 #menu3 {
     margin: 0px 20px 20px;
@@ -102,6 +110,11 @@ ul {
 
 li {
     padding-bottom: 20px;
+}
+
+.bouton4 {
+    text-decoration: none;
+    color: black;
 }
 
 img {
