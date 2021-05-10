@@ -547,4 +547,35 @@ button {
         width: 300px;
     }
 }
+
+@media screen and (min-width:951px) and (max-width:1440px){
+    .photo3, .photo4, .photo5, .activitésmarseille {
+        width: 200px;
+    }   
+
+    #hébergementsmarseille {
+        flex-wrap: nowrap;
+    }
+    .photo2 {
+        min-width: 150px;
+        height: 185px;
+    }
+    .populaires {
+        max-width: 290px;
+    }
+    .photo {
+        width: 194px;
+    }
+    img {
+        width: 185px;
+    }
+    #hebergementpopulaires {
+        width: 360px;
+    }
+    #hébergements {
+        max-width: 760px;
+    }
+}
+
+
   
